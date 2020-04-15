@@ -1,0 +1,11 @@
+{
+  "name": "wfrench-CLEANSER",
+  "version": "0.1.2",
+  "author": "wfrench",
+  "summary": "To enable users to determine what strings to seek out and substitute, as well as customer substitute data.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/dimndskier/CLEANSER.git",
+  "project_page": "https://github.com/dimndskier/CLEANSER",
+  "issues_url": "https://github.com/dimndskier/CLEANSER/issues",
+}
+

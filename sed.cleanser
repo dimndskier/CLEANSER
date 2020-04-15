@@ -1,0 +1,29 @@
+
+
+#giometti@linux.it		-> geometry@addr.com
+#dm-devel@redhat.com		-> damn@devel.com
+#owncloud10			-> droplets8
+#34.194.39.113			-> 22.c2.39.113
+#66.228.48.38			-> A.B.48.38
+#74.6.168.72			-> G.H.168.72
+#192.168.1.*			-> 172.0.1.*
+#192.168.2.*			-> 172.0.2.*
+#192.168.122.2			-> 10.127.122.2
+#195.21.137.*			-> 183.11.129.*
+
+###
+#
+# ADD below line "_Begin_Here_" lines looking like this:
+#	s/find_pattern/new_pattern/g
+#
+# _Begin_Here_
+s/owncloud10/droplets8/g
+s/giometti@linux.it/geometry@addr.com/g
+s/dm-devel@redhat.com/damn@devel.com/g
+s/195.21.137.209/183.11.129.*/g
+s/192.168.1/172.0.1/g
+s/192.168.2/172.0.2/g
+s/192.168.122/10.127.122/g
+s/66.228.48.38/A.B.48.38/g
+s/74.6.168.72/G.H.168.72/g
+s/34.194.39.113/22.c2.39.113/g
